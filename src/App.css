@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+
+
+.Netbook span{
+  color: red;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span i{
+  color: red;
+  font-weight: 900;
+}
+span i:hover{
+  animation: mymove 3s;
+  animation-iteration-count: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes mymove {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(359deg);
   }
+}
+ 
+
+.btn{
+  width: 200px;
+  height: 40px;
+clip-path: polygon(7% 0, 100% 0, 93% 97%, 0% 100%);
+  background-color: #D53E4B;
+  color: white;
+}
+
+#abhi :hover{
+  color: red;
+}
+.item-1 li{
+  list-style: none;
+}
+
+.footer{
+  height: 60vh;
+  background-color: #F9F9F9;
+}
+.input{
+  height: 40px;
+  width: 200px;
+  clip-path: polygon(1% 1%, 90% 1%, 80% 100%, -10% 100%);
+  background-color: #D53E4B;
+  border: 2px solid #D53E4B;
+}
+.item-1{
+  position: relative;
+}
+.butn{
+  width: 90px;
+  height:40px ;
+  clip-path: polygon(34% 2%, 76% -9000%, 100% 100%, 10% 100%);
+  position: absolute;
+  border: 2px solid #D53E4B;
+  left: 70%;
+}
+.logo1{
+  width: 60px;
+  height: 40px;
+  text-align: center;
+ clip-path: polygon(2% 0, 100% 0, 84% 100%, 0 100%);
+
+ background-color:#D53E4B;
+
+  border: 3px solid #D53E4B;
+
+
+}
+.logo2{
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  clip-path: polygon(19% 3%, 97% 0, 85% 100%, 4% 100%);
+  background-color:#D53E4B;
+
+  border: 3px solid #D53E4B;
+
+}
+.logo3{
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  background-color:#D53E4B;
+
+  border: 3px solid #D53E4B;
+  clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+}
+.section-left{
+  position: relative;
+  /* float: right; */
+  margin-left: 10rem;
+}
+.section-logo{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 46%;
+  left: -20%;
+  background-color: #D53E4B;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+.section-btn-left i{
+  font-size: 30px;
+}
+.section-logo1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 46%;
+  left: 90%;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+background-color: #D53E4B;
+  
+}
+.section-cards{
+  width: 400px;
+  height: 440px;
+  border-radius: 20px;
+  background-color: rgb(228,171,159);
+}
+
+.section-right h1{
+  font-size: 30px;
+}
+.section-right p{
+  font-size: 20px;
+}
+.section-btn-right{
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+width: 150px;
+text-align: center;
+border: 3px solid #ff0000;
+
+background-color: #D53E4B;
+}
+.section-btn-left1{
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+width: 200px;
+text-align: center;
+border: 3px solid #ff0000;
+background-color: #D53E4B;
+
+}
+
+.section-img img{
+  width: 380px;
+  border-radius: 20px;
+  margin-top: 10px;
+  height: 210px;
+  object-fit: cover;
+  justify-content: space-between;
+  position: absolute;
+  left: 10px;
+ 
+}
+.imges img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.section-cards1{
+  width: 380px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: #ffff;
+  position: absolute;
+  left: 10px;
+  top: 51%;
+}
+.section-cards1 h3{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.section-1{
+  font-size: 15px;
+  color: red;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.section-2{
+  font-size: 15px;
+  color: yellow;
+  font-weight: bolder;
+  
+  
+}
+.sections{
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(to right bottom ,rgb(231, 102, 102),white, white,white,white, red , yellow);
 }

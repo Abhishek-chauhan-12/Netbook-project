@@ -1,15 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './component/Navbar';
-import Footer from './component/Footer';
-import Section from './component/Section';
+import Phonebook from './component/Phonebook';
 
 function App() {
   return (
    <div>
-   <Navbar/>
-   <Section/>
-   <Footer/>
+   <Phonebook/>
+  
+  
    </div>
   )
 }
